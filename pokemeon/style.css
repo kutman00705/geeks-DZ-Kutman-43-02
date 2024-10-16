@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.stats {
+    border: orange 2px solid;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hamster {
+    width: 250px;
+    height: 150px;
+    background-image: url('./images/hamster.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.hamster:active {
+    transform: scale(0.95);
+}
